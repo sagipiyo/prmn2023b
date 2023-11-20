@@ -9,5 +9,13 @@
       <jdbc-url>jdbc:h2:$PROJECT_DIR$/../db_prac;Mode=PostgreSQL;AUTO_SERVER=TRUE;;MV_STORE=false</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="db_prac2" uuid="eb8faedf-6002-43cd-af6e-2f5c9447c270">
+      <driver-ref>h2.unified</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>db学習</remarks>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:~/h2db/db_prac;Mode=PostgreSQL;AUTO_SERVER=TRUE;;MV_STORE=false</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
